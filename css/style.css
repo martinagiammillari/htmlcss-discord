@@ -86,19 +86,22 @@ a {
 .major-section {
     max-height: 300px;
     width: 40%;
-    background-color: rgb(15, 74, 200);
+    /* background-color: rgb(15, 74, 200); */
 }
 
 .minor-section {
     min-height: 300px;
-    width: 30%;
-    background-color: pink;
+    width: 25%;
+    /* background-color: pink; */
+    
 }
 
 .grey-section {
-    min-height: 400px;
-    background-color: rgb(213, 211, 211);
-}
+    min-height: 700px;
+    background-color: rgb(243, 239, 239);
+    display: flex;
+    gap: 100px;
+    }
 
 .big-section {
     min-height: 800px;

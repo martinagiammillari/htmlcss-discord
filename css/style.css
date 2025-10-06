@@ -121,20 +121,21 @@ a {
 }
 
 .black-section {
-    min-height: 400px;
+    min-height: 560px;
     background-color: black;
 }
 
 .macro-section {
-    min-height: 350px;
-    min-width: 22%;
+    min-height: 400px;
+    min-width: 10%;
+    max-width: 20%;
     background-color: coral;
 }
 
 .micro-section {
-    min-height: 350px;
-    min-width: 12%;
-    background-color: turquoise;
+    min-height: 400px;
+    min-width:17%;
+    /* background-color: turquoise; */
     border: 1px solid black;
 }
 
@@ -205,6 +206,28 @@ a {
     margin-bottom: 100px;
 }
 .little-title{
-    font-size: 1.7rem;
-    margin-bottom: 50px;
+    font-size: 1.9rem;
+    
+    font-weight: 600;
+
+}
+ul{
+    list-style: none;
+
+}
+li:first-child{
+color: rgb(37, 98, 220);
+}
+li{
+margin: 15px;
+}
+#imgflag{
+    scale: 0.4;
+    padding-left: 48px;
+}
+.social{
+    display: flex;
+   gap: 20px;
+   padding-left: 50px;
+   font-size: 1.2rem;
 }

@@ -1,0 +1,143 @@
+*> {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+
+}
+
+.header-container {
+    height: 80px;
+    background-color: lightblue;
+
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-item {
+    height: 35%;
+    width: 15%;
+    background-color: orange;
+    text-align: center;
+    border: 1px solid rgb(98, 56, 5);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.header-item:nth-child(2) {
+    flex-basis: 40%;
+}
+
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+
+.jumbo {
+    min-height: 300px;
+    background-color: blue;
+
+}
+
+.banner {
+    min-height: 230px;
+    min-width: 50%;
+    ;
+    background-color: pink;
+}
+
+.white-section {
+    min-height: 400px;
+    background-color: white;
+}
+
+.major-section {
+    min-height: 300px;
+    min-width: 40%;
+    background-color: rgb(15, 74, 200);
+}
+
+.minor-section {
+    min-height: 300px;
+    min-width: 30%;
+    background-color: pink;
+}
+
+.grey-section {
+    min-height: 400px;
+    background-color: rgb(213, 211, 211);
+}
+
+.big-section {
+    min-height: 800px;
+    background-color: rgb(213, 211, 211);
+}
+
+.big-banner {
+    min-height: 700px;
+    min-width: 70%;
+    background-color: green;
+}
+
+.black-section {
+    min-height: 400px;
+    background-color: black;
+}
+
+.macro-section {
+    min-height: 350px;
+    min-width: 22%;
+    background-color: coral;
+}
+
+.micro-section {
+    min-height: 350px;
+    min-width: 12%;
+    background-color: turquoise;
+    border: 1px solid black;
+}
+
+.footer-container {
+    height: 100px;
+    background-color: black;
+    border-top: 1px solid white;
+
+}
+
+.footer-item {
+    height: 50%;
+    width: 70%;
+    background-color: teal;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: pink;
+    padding: 5px;
+    border: 1px solid black;
+
+}

@@ -104,14 +104,20 @@ a {
     }
 
 .big-section {
-    min-height: 800px;
-    background-color: rgb(213, 211, 211);
+    min-height: 1400px;
+    background-color:  rgb(243, 239, 239);
 }
 
 .big-banner {
-    min-height: 700px;
-    min-width: 70%;
-    background-color: green;
+    min-height: 1000px;
+    max-width: 70%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+   
 }
 
 .black-section {
@@ -166,6 +172,11 @@ a {
     color: white;
     background-color: black;
 }
+.button-blue{
+    color: white;
+    background-color: rgb(37, 98, 220);
+
+}
 .banner-button-flex{
     display: flex;
     justify-content: center ;
@@ -184,4 +195,16 @@ a {
     line-height: 1.75rem;
     padding-top: 20px;
 
+}
+.text-center{
+    text-align: center;
+}
+
+#immagine{
+    scale: 1.2;
+    margin-bottom: 100px;
+}
+.little-title{
+    font-size: 1.7rem;
+    margin-bottom: 50px;
 }

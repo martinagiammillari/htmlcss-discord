@@ -61,7 +61,7 @@ a {
 .jumbo {
     min-height: 520px;
     background-image: url(../img/jumbo.png);
-    background-size:cover;
+    background-size: cover;
 
 }
 
@@ -69,9 +69,10 @@ a {
     min-height: 230px;
     max-width: 50%;
     text-align: center;
-    
+
 }
-.titolo{
+
+.titolo {
     font-size: 3rem;
     margin: 0;
 }
@@ -93,7 +94,7 @@ a {
     min-height: 300px;
     width: 25%;
     /* background-color: pink; */
-    
+
 }
 
 .grey-section {
@@ -101,11 +102,11 @@ a {
     background-color: rgb(243, 239, 239);
     display: flex;
     gap: 100px;
-    }
+}
 
 .big-section {
     min-height: 1400px;
-    background-color:  rgb(243, 239, 239);
+    background-color: rgb(243, 239, 239);
 }
 
 .big-banner {
@@ -114,49 +115,52 @@ a {
     /* background-color: green; */
     display: flex;
     flex-direction: column;
-    
-    
-   
-   
+
+
+
+
 }
 
 .black-section {
-    min-height: 560px;
+    min-height: 450px;
     background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .macro-section {
     min-height: 400px;
     min-width: 10%;
-    max-width: 20%;
-    background-color: coral;
+    max-width: 22%;
+    /* background-color: coral; */
+    border-bottom: 2px solid rgb(37, 98, 220);
 }
 
 .micro-section {
     min-height: 400px;
-    min-width:17%;
-    /* background-color: turquoise; */
-    border: 1px solid black;
+    min-width: 15%;
+    border-bottom: 2px solid rgb(37, 98, 220);
+
 }
 
 .footer-container {
-    height: 100px;
+    max-height: 70px;
     background-color: black;
-    border-top: 1px solid white;
-
 }
 
 .footer-item {
-    height: 50%;
-    width: 70%;
-    background-color: teal;
+
+    width: 80%;
+    background-color: black;
     justify-content: space-between;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
 }
 
 .button {
-    
+
     padding: 10px;
     border-radius: 30px;
     padding-left: 20px;
@@ -164,70 +168,79 @@ a {
 
 }
 
-.button-black-font{
-   color: black; 
-   background-color: white;
+.button-black-font {
+    color: black;
+    background-color: white;
 }
 
-.button-white-font{
+.button-white-font {
     color: white;
     background-color: black;
 }
-.button-blue{
+
+.button-blue {
     color: white;
     background-color: rgb(37, 98, 220);
 
 }
-.banner-button-flex{
+
+.banner-button-flex {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     gap: 20px;
     font-size: 1.22rem;
-    
+
 
 }
 
-.text-white-font{
+.text-white-font {
     color: white;
 }
 
-.text-banner{
+.text-banner {
     font-size: 1.22rem;
     line-height: 1.75rem;
     padding-top: 20px;
 
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
-#immagine{
+#immagine {
     scale: 1.2;
     margin-bottom: 100px;
 }
-.little-title{
+
+.little-title {
     font-size: 1.9rem;
-    
+
     font-weight: 600;
 
 }
-ul{
+
+ul {
     list-style: none;
 
 }
-li:first-child{
-color: rgb(37, 98, 220);
+
+li:first-child {
+    color: rgb(37, 98, 220);
 }
-li{
-margin: 15px;
+
+li {
+    margin: 15px;
 }
-#imgflag{
+
+#imgflag {
     scale: 0.4;
     padding-left: 48px;
 }
-.social{
+
+.social {
     display: flex;
-   gap: 20px;
-   padding-left: 50px;
-   font-size: 1.2rem;
+    gap: 20px;
+    padding-left: 50px;
+    font-size: 1.2rem;
 }

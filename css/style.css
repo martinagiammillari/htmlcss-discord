@@ -59,7 +59,7 @@ a {
 
 
 .jumbo {
-    min-height: 550px;
+    min-height: 520px;
     background-image: url(../img/jumbo.png);
     background-size:cover;
 
@@ -77,19 +77,21 @@ a {
 }
 
 .white-section {
-    min-height: 400px;
+    min-height: 700px;
     background-color: white;
+    display: flex;
+    gap: 100px;
 }
 
 .major-section {
-    min-height: 300px;
-    min-width: 40%;
+    max-height: 300px;
+    width: 40%;
     background-color: rgb(15, 74, 200);
 }
 
 .minor-section {
     min-height: 300px;
-    min-width: 30%;
+    width: 30%;
     background-color: pink;
 }
 
@@ -173,9 +175,7 @@ a {
 .text-white-font{
     color: white;
 }
-.text-black-font{
-    color: black;
-}
+
 .text-banner{
     font-size: 1.22rem;
     line-height: 1.75rem;

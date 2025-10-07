@@ -244,3 +244,6 @@ li {
     padding-left: 50px;
     font-size: 1.2rem;
 }
+img{
+    max-width: 100%;
+}
